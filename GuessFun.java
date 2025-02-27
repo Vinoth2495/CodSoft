@@ -1,7 +1,7 @@
 import java.util.*;
 
 class GuessFun {
-    public static void main(String[] args) {                // Task-1: Simple Guess Game
+    public static void main(String[] args) {                
         Scanner input = new Scanner(System.in);
         char playAgain = 'Y';
         int totalPoints = 0;
@@ -15,7 +15,7 @@ class GuessFun {
                 int guess = input.nextInt();
                 result = checkGuess(guess, secretNum);
                 if (result == 1) {
-                    totalPoints += (9 - tries);  // 9 points for 1st try, 8 for 2nd, etc.
+                    totalPoints += (9 - tries);  
                     break;
                 }
             }
