@@ -3,7 +3,7 @@ import java.util.Scanner;
 class CashBox {
     double money;
 
-    public CashBox(double startingMoney) {                  // Task-3: Simple Cash Machine
+    public CashBox(double startingMoney) {                  
         this.money = startingMoney;
     }
 
