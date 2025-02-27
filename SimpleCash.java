@@ -65,7 +65,7 @@ class CashMachine {
         double cash = input.nextDouble();
         if (box.takeOut(cash)) {
             System.out.println("Cash taken out!");
-        } else {3
+        } else {
             System.out.println("Not enough money or bad amount.");
         }
     }
